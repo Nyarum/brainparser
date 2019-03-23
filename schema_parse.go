@@ -6,19 +6,10 @@ import (
 
 /*
 	var sch = brainparser.Schema{
-		"id": {
-			"value": uint16(1),
-		},
-		"name": {
-			"value": string("default"),
-			"order": binary.LittleEndian,
-			"len": 15,
-		},
-		"attrs": {
-			"value": []uint16{1,2},
-			"len": 2,
-			"skip": 2,
-		}
+		{"ID", t.ID, [brainparser.SetOrder(binary.LittleEndian)], nil},
+		{"ID2", t.ID2, nil, nil},
+		{"ID3", t.ID3, nil, nil},
+		{"ID4", t.ID4, nil, nil},
 	}
 */
 
